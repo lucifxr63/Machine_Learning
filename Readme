@@ -1,0 +1,29 @@
+# Predicción de GRD con Aprendizaje Automático - CINF104
+
+Este proyecto fue desarrollado como parte del curso **CINF104 - Aprendizaje de Máquinas** y tiene como objetivo predecir el **GRD (Grupo Relacionado al Diagnóstico)** a partir de información clínica codificada con CIE-9 y CIE-10, edad y sexo del paciente.
+
+## 📊 Dataset
+
+El dataset fue provisto para este proyecto e incluye:
+- Diagnósticos (Diag01–Diag35)
+- Procedimientos (Proced01–Proced30)
+- Edad y sexo del paciente
+- Código GRD asociado a cada registro
+
+Se complementó con tablas de referencia para:
+- Descripciones CIE-10 y CIE-9
+- Tabla maestra GRD (severidad y mortalidad)
+
+## 🧠 Metodología
+
+1. **Exploración y limpieza de datos**
+2. **Visualizaciones descriptivas**
+3. **Preprocesamiento:**
+   - Codificación de diagnósticos y procedimientos
+   - Label Encoding del GRD
+   - One-hot encoding para entrenamiento
+4. **Entrenamiento de modelo con TensorFlow**
+5. **Evaluación y visualización de resultados**
+
+## 🛠️ Estructura del proyecto
+
